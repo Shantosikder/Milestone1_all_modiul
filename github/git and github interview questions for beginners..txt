@@ -1,0 +1,72 @@
+Modiul 3: 
+
+1. What is Git? What are the advantages of using Git?
+Ans: Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.
+
+1.1: What is Git and its advantages?
+
+What is Git and its advantages?
+Image result for What is Git? What are the advantages of using Git?
+One of the biggest advantages of Git is its branching capabilities. Unlike centralized version control systems, Git branches are cheap and easy to merge. This facilitates the feature branch workflow popular with many Git users. Feature branches provide an isolated environment for every change to your codebase.
+
+2. What do you understand by the term ‘Version Control System’?
+Ans: Version control systems are software tools that help software teams manage changes to source code over time. As development environments have accelerated, version control systems help software teams work faster and smarter.
+
+3.What’s the difference between Git and GitHub?
+Ans: what's the difference? Simply put, Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+4. Name a few Git commands with their function.
+Ans: 
+Basic Snapshotting:
+
+Command	Description
+
+git status	Check status
+git add [file-name.txt]	Add a file to the staging area
+git add -A	Add all new and changed files to the staging area
+git commit -m "[commit message]"	Commit changes
+git rm -r [file-name.txt]	Remove a file (or folder)
+
+Branching & Merging:
+
+Command	Description
+
+git branch	List branches (the asterisk denotes the current branch)
+git branch -a	List all branches (local and remote)
+git branch [branch name]	Create a new branch
+git branch -d [branch name]	Delete a branch
+git push origin --delete [branch name]	Delete a remote branch
+git checkout -b [branch name]	Create a new branch and switch to it
+git checkout -b [branch name] origin/[branch name]	Clone a remote branch and switch to it
+git branch -m [old branch name] [new branch name]	Rename a local branch
+git checkout [branch name]	Switch to a branch
+git checkout -	Switch to the branch last checked out
+git checkout -- [file-name.txt]	Discard changes to a file
+git merge [branch name]	Merge a branch into the active branch
+git merge [source branch] [target branch]	Merge a branch into a target branch
+git stash	Stash changes in a dirty working directory
+
+git stash clear	Remove all stashed entries:
+
+Sharing & Updating Projects
+
+Command	Description
+
+git push origin [branch name]	Push a branch to your remote repository
+git push -u origin [branch name]	Push changes to remote repository (and remember the branch)
+git push	Push changes to remote repository (remembered branch)
+git push origin --delete [branch name]	Delete a remote branch
+git pull	Update local repository to the newest commit
+git pull origin [branch name]	Pull changes from remote repository
+git remote add origin ssh://git@github.com/[username]/[repository-name].git	Add a remote repository
+git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	Set a repository's origin branch to SSH
+Inspection & Comparison
+Command	Description
+git log	View changes
+git log --summary	View changes (detailed)
+git log --oneline	View changes (briefly)
+git diff [source branch] [target branch]	Preview changes before merging
+
+5. Difference between git fetch and git pull.
+Ans: Git Fetch is the command that tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository. Git Pull on the other hand brings the copy of the remote directory changes into the local repository. Let us look at Git Fetch and Git Pull separately with the help of an example.
+
+

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color: red;
+    font-size: 30px;
+   
+}
+.wavy{
+   text-decoration: underline wavy green;
+    margin-top: 50px;
+    text-align: center;
+}
+.para{
+    color: red;
+    font-size: 50px;
+    
+}
+.hedind{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    height: 600px;
+    background-image: url("../img/1464124561-shot-1-033.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+   background-color: gold;
+   background-blend-mode: darken;
+}
+
+span{
+    border: 5px solid red;
+    font-size: 30px;
+    padding: 10px;
+   
+
+}
+
+span a{
+    text-decoration: none;
+}
+
+.demo{
+    background-color: blue;
+    box-shadow: 10px 5px 5px rgb(234, 255, 0);
+    color: aliceblue;
+    box-shadow: none;
+    /* text-decoration: line-through; */
+}
+a[target="_blank"]{
+    color: white;
+    font-size: large;
+}
