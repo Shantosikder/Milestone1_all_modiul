@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Ghor</title>
+    <style>
+        .center{
+            width: 600px;
+            height: 800px;
+            border: 5px solid red;
+            border-radius: 10px;
+            background-color: greenyellow;
+            font-size: 20px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        label{
+            display: block;
+            padding: 10px;
+        }
+        .title{
+            text-align: center;
+            text-decoration: wavy underline green;
+        }
+       .btn{
+        margin-top: 10px;
+        font-size: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div class="center" >
+        
+    <h2 class="title">Jamal ar Ma pitha Ghor</h2>
+    
+    <form action="">
+        <label for="name">Your Name:
+            <input type="text" id="name" placeholder="Enter your name">
+        </label>
+        <label for="email">Your Email:
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </label>
+        <label for="phone">Your Number:
+            <input type="number" name="phone" id="phone" placeholder="Enter your phone number">
+        </label>
+        <fieldset>
+            <legend>Pick one pitha:</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                Vapa
+            </label>
+            <label for="coconut">
+                <input type="radio" name="pitha" id="coconut">
+                Coconut
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one or More Vorta: </legend>
+            <label for="sorisha">
+                <input type="checkbox" name="vorta" id="sorisha">
+                Sorisha
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vorta" id="shutki">
+                Sorisha
+            </label>
+            <label for="dhoniya">
+                <input type="checkbox" name="vorta" id="dhoniya">
+                Dhoniya
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instraction: </legend>
+            <textarea name="" id="" cols="60" rows="7"></textarea>
+        </fieldset>
+        <center class="btn">
+        <input type="reset" value="Reset">
+        <input type="submit"  value="Submit">
+        </center>
+    </form>
+    </div>
+</body>
+</html>
