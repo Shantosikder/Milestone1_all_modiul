@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+/* Banner style Start */
+.banner-sub{
+  width: 50%;
+  margin-left: auto;
+}
+.banner-sub h3{
+    color: #ffff;
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-bottom: 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+.banner-sub p{
+    color: #ffff;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 230px;
+    padding-bottom: 24px;
+}
+.banner-sub button{
+    color: #005FAC;
+    margin-right: 500px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 166px;
+}
+.banner{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Banner part end */
+
+/* my failure style start */
+.my-failure{
+    display: flex;
+    gap: 70px;
+}
+.failure-photo{
+    width: 569px;
+    height: 723.3px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.failure-description h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-top: 400px;
+}
+.failure-description p{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.list-style{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.list-style i{
+    color: #16D887;
+}
+/* failoure style end */
+
+/* my plant part start */
+.my-plans{
+    margin-bottom: 70px;
+}
+.plans-title{
+    color: #151414;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.plan-container{
+    display: flex;
+    gap: 50px;
+    margin-left: 294px;
+}
+.plans-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+.plans img{
+   margin-left: 25px;
+}
+/* watch part start */
+.positive img{
+    margin-left: 285px;
+    width: 850px;
+    height: 140px;
+    margin-bottom: 70px;
+}
