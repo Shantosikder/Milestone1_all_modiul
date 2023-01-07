@@ -31,7 +31,7 @@
 }
 .banner-sub button{
     color: #005FAC;
-    margin-right: 500px;
+    /* float: right; */
     padding: 10px;
     border-radius: 3px;
     border: none;
@@ -41,6 +41,7 @@
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),;
 }
 /* Banner part end */
 
@@ -107,9 +108,94 @@
    margin-left: 25px;
 }
 /* watch part start */
+
 .positive img{
     margin-left: 285px;
     width: 850px;
     height: 140px;
     margin-bottom: 70px;
+    background: linear-gradient(80deg, #005FAC 0%, rgba(0, 95, 172, 0) 50%);
+}
+/* positive part end */
+
+/* photo gallary start */
+.gallary-title{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+/* photo gallry end */
+
+.footers{
+    display: flex;
+    gap: 100px;
+    color: #fff;
+    background: #000000;
+    padding: 130px 200px;
+}
+.footers .section-title{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+}
+.footers input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: F3F3F3;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn-primary{
+    padding: 7px 10px;
+    background-color: #005FAC;
+    color: #fff;
+    border-radius: 5px;
+}
+.footers a{
+    text-decoration: none;
+    
+}
+.icone{
+    margin: 0 6px;
+}
+.section-description{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-contact p{
+    color: #ffff;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
